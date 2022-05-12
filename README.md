@@ -1,7 +1,7 @@
 # this is my first readme file 
 # in first public GIT repo
 | mission | stat | comment        |
-|---------|:----:|----------------|
+|:-------:|:----:|:--------------:|
 | table   | done | best tbl ever  |
 | image   | next | selfie         |
 |  text   | here | & there        |
