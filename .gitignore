@@ -3,6 +3,7 @@
 .env.*
 .env.dbcreds
 # dir ignore
+appdata/
 home/
 somedir/
 media/
