@@ -1,5 +1,5 @@
-# this is the first readme file 
-# in first public GIT repo
+ this is the first readme file 
+ in first public GIT repo
 | mission | stat | comment |
 |---------|------|---------|
 | table   | done | line 5  |
