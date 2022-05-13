@@ -1,7 +1,5 @@
 # env ignore
-.env*
-.env.*
-.env.dbcreds
+.env
 # dir ignore
 appdata/
 home/
