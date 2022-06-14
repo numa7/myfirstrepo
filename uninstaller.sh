@@ -1,7 +1,5 @@
 #!/bin/bash
 
-
-
 sudo service mysql stop
 sudo killall -KILL mysql mysqld_safe mysqld
 sudo apt-get --yes purge mysql-server mysql-client
@@ -19,6 +17,10 @@ sleep 1s
 echo "remove php-mysql.."
 sudo apt remove php-mysql -y
 sudo apt remove php-mbstring -y
+echo "done"
+sleep 1s
+echo "remove Maria..."
+sudo apt  remove  mariadb-server mariadb-client mariadb-backup -y
 
 echo "done"
 sleep 1s
@@ -33,5 +35,6 @@ sleep 1s
 echo "deleting downloaded files.."
 sudo rm -f mysql-apt-config_*
 sudo rm -f phpMyAdmin-*
+sudo rm -f /etc/apt/sources.list.d/mariadb.list*
 echo "done"
 sleep 1s
